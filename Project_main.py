@@ -318,7 +318,7 @@ class Face_Transform():
             y = 125
             l = len(TEXTS)
             for i in range(2, l):
-                screen.blit(self.Control_set[TEXTS[2]], (600, y))
+                screen.blit(self.Control_set[TEXTS[i]], (600, y))
                 y += 60
             screen.blit(self.Control_set["Gears"], (290, 197))
             screen.blit(self.Control_set["Gears"], (409, 197))
